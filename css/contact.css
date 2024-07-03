@@ -1,0 +1,228 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  font-size: 20px;
+}
+li{
+  color: #56853d;
+}
+.menu-icon {
+  margin-left: auto; /* Pushes the menu icon to the right */
+}
+
+/* Navbar styles */
+header {
+  background-color:rgb(211, 211, 211); /* Set background color */
+  box-shadow: 0 2px 4px rgba(219, 208, 108, 0.1); /* Add shadow for depth */
+  padding: 10px 0; /* Add padding for space around navbar */
+ 
+}
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right:70px;
+  text-align: center;
+}
+.nav-links li {
+  color: #FFFFED;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+ /* Add space between each stacked nav item */
+  margin-left: 50px;}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #56853d;/* Set link color */
+  transition: color 0.5s; /* Add transition for smooth color change */
+}
+
+.nav-links a:hover {
+  color:rgb(233, 215, 54); /* Change color on hover */
+}
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the navigation links */
+  .nav-links li {
+    animation: slideIn 0.7s ease-in-out forwards;
+  }
+
+
+  /* kodi i footer */
+
+  footer {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 0;
+  }
+  
+  .footer-c {
+    display: flex;
+    color: #56853d;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+    background-color:  rgb(211, 211, 211);
+  }
+  .footer-section a{
+    text-decoration: none;
+  }
+
+  
+  .footer-section h3 {
+    color: #56853d;
+    cursor: pointer;
+    transition: o.3s;
+  }
+  
+  .footer-section p {
+    color:#56853d;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    margin-left: 20px;
+    color:#56853d;
+    font-size: 14px;
+  }
+
+  .footer-section.about a {
+    text-decoration: none;
+  }
+
+  
+/* /General Styles */
+.contact {
+  padding: 50px 1;
+  background-color: #f9f9f9;
+}
+
+.content {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: 300px;
+  margin: 10px;
+  background-color: gray;
+  background-image: url('https://i.pinimg.com/564x/16/cc/37/16cc37b434b993e3ad97e52940cf57f6.jpg');
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contactForm {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.contactForm form {
+  display: inline-block;
+  text-align: left; /* Align form inputs to the left */
+}
+
+.inputBox {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: calc(100% - 22px); /* Adjusted width to accommodate for padding and border */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: calc(100% - 22px); /* Adjusted width to accommodate for padding and border */
+  background-color: #56853d;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  background-color: rgb(233, 215, 54);
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+  .box {
+    flex-basis: calc(50% - 40px);
+  }
+}
+
+h2{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+p{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+span{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.forma{
+  margin-right: 120px;
+  margin-top: 10px;
+}
+
+.kontakt{
+  margin-right: 120px;
+  margin-top: 70px;
+}
+img {
+  image-rendering: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.data{
+  color: black;
+  font-family: bold;
+  font-size: 20px;
+}
+
+.fill{
+  text-align: center;
+}

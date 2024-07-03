@@ -1,0 +1,161 @@
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the navigation links */
+.nav-links li {
+  animation: slideIn 0.7s ease-in-out forwards;
+}
+
+
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  font-size: 20px;
+}
+li{
+  color: #56853d;
+}
+.menu-icon {
+  margin-left: auto; /* Pushes the menu icon to the right */
+}
+
+/* Navbar styles */
+header {
+  background-color:rgb(211, 211, 211); /* Set background color */
+  box-shadow: 0 2px 4px rgba(219, 208, 108, 0.1); /* Add shadow for depth */
+  padding: 10px 0; /* Add padding for space around navbar */
+ 
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #56853d;/* Set link color */
+  transition: color 0.5s; /* Add transition for smooth color change */
+}
+
+.nav-links a:hover {
+  color:rgb(233, 215, 54); /* Change color on hover */
+}
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right:70px;
+  text-align: center;
+}
+.nav-links li {
+  color: #FFFFED;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+ /* Add space between each stacked nav item */
+  margin-left: 50px;}
+
+  footer {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    color: #56853d;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    color: #56853d;
+    cursor: pointer;
+    transition: o.3s;
+  }
+  
+  .footer-section p {
+    color:#56853d;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    margin-left: 20px;
+    color:#56853d;
+    font-size: 14px;
+  }
+
+
+
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Gap between menu items */
+    padding: 15px;
+  }
+  
+  .menu-item {
+    text-align: center;
+
+  }
+  
+  .menu-item img {
+    width: 100%; /* Make the image fill its container */
+    height: 280px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    cursor: pointer;
+  }
+
+  .menu-item :hover{
+    transition: opacity 0.3s;
+    opacity: 0.8;
+   }
+  
+  .menu-item p {
+    margin: 10px 0; /* Add space around paragraphs */
+  }
+  
+  .menu-item button {
+    background-color: #56853d; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 16px; /* Padding */
+  }
+  
+  .menu-item button:hover {
+    cursor: pointer;
+    transition: opacity 0.3s;
+    opacity: 0.7;
+    background-color: rgb(233, 215, 54);
+  }
+
+
+  .e{
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .kategorite{
+    text-align: center;
+  }
+
+  .frozen{
+    margin-left: 20px;
+    color: #56853d;
+  }

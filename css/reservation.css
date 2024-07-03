@@ -1,0 +1,225 @@
+
+.booking-photo {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.booking-details {
+  margin-top: 10px;
+}
+
+.booking-details p {
+  margin-bottom: 10px;
+}
+
+.book-button {
+  padding: 10px 20px;
+  background-color: #56853d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-photos img:hover{
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+}
+.book-button:hover{
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  background-color: rgb(233, 215, 54);
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  font-size: 20px;
+}
+li{
+  color: #56853d;
+}
+.menu-icon {
+  margin-left: auto; /* Pushes the menu icon to the right */
+}
+
+/* Navbar styles */
+header {
+  background-color:rgb(211, 211, 211); /* Set background color */
+  box-shadow: 0 2px 4px rgba(219, 208, 108, 0.1); /* Add shadow for depth */
+  padding: 10px 0; /* Add padding for space around navbar */
+ 
+}
+
+/* animacionet e navbarit */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the navigation links */
+.nav-links li {
+  animation: slideIn 0.7s ease-in-out forwards;
+}
+
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right:70px;
+  text-align: center;
+}
+.nav-links li {
+  color: #FFFFED;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+ /* Add space between each stacked nav item */
+  margin-left: 50px;}
+
+.nav-links a {
+  text-decoration: none;
+  color: #56853d;/* Set link color */
+  transition: color 0.5s; /* Add transition for smooth color change */
+}
+
+.nav-links a:hover {
+  color:rgb(233, 215, 54); /* Change color on hover */
+}
+
+
+
+  footer {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    color: #56853d;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    color: #56853d;
+    cursor: pointer;
+    transition: o.3s;
+  }
+  
+  .footer-section p {
+    color:#56853d;
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    margin-left: 20px;
+    color:#56853d;
+    font-size: 14px;
+  }
+
+h2{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+
+p{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form styles */
+#cooking-class-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #56853d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(233, 215, 54);
+}
+
+/* Confirmation message styles */
+#class-confirmation-message {
+  margin-top: 20px;
+  padding: 10px;
+  color: #56853d;
+  text-align: center;
+
+}
+
+
+
+.footer-content a{
+  text-decoration: none;
+}

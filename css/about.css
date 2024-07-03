@@ -1,0 +1,258 @@
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to the navigation links */
+.nav-links li {
+  animation: slideIn 0.7s ease-in-out forwards;
+}
+
+
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+li{
+  color: #56853d;
+}
+.menu-icon {
+  margin-left: auto; /* Pushes the menu icon to the right */
+}
+
+/* Navbar styles */
+header {
+  background-color:rgb(211, 211, 211); /* Set background color */
+  box-shadow: 0 2px 4px rgba(219, 208, 108, 0.1); /* Add shadow for depth */
+  padding: 10px 0; /* Add padding for space around navbar */
+ 
+}
+
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right:70px;
+  text-align: center;
+}
+.nav-links li {
+  color: #FFFFED;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+ /* Add space between each stacked nav item */
+  margin-left: 50px;}
+
+.nav-links a {
+  text-decoration: none;
+  color: #56853d;/* Set link color */
+  transition: color 0.5s; /* Add transition for smooth color change */
+}
+
+.nav-links a:hover {
+  color:rgb(233, 215, 54); /* Change color on hover */
+}
+
+
+  /* kodi tek fotoja dhe pargapfi */
+  .about {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+  .about-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-photo {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .about-photo img {
+    max-width: 100%;
+  }
+
+  .read{
+    background-color: #56853d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    color: #56853d;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    background-color: rgb(211, 211, 211);
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h3 {
+    color: #56853d;
+    cursor: pointer;
+    transition: o.3s;
+  }
+  
+  .footer-section p {
+    color:#56853d;
+    margin-bottom: 10px;
+  }
+  .our{
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-bottom {
+    margin-left: 20px;
+    color:#56853d;
+    font-size: 14px;
+  }
+  .team{
+    text-align: center;
+  }
+  
+  h2{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  margin-bottom: 20px;
+  }
+  
+  
+  p{
+  color: #56853d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  }
+
+
+
+  .aboutus{
+    text-align: center;
+  }
+
+  .title{
+    color: #56853d;
+    font-size: 28px;
+  }
+
+
+
+  /* kodi per team */
+
+  .teamcheffs{
+    text-align: center;
+  }
+  .team-section {
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+.team-member {
+    margin-top: 20px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.team-member p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+/* member */
+
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category img:hover{
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+
+}
+.category {
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.categories:hover{
+  transition: opacity 0.3s;
+}
+
+.category img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.caption:hover{
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  color: #ACDDDE;
+  font-family: bold;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #56853d;
+}
+
+h3{
+  color: #56853d;
+}
+
+
+.footer-content a{
+  text-decoration: none;
+}
